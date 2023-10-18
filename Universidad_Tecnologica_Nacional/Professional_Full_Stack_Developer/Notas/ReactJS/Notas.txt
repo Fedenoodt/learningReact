@@ -1,0 +1,59 @@
+  - 28-08-2023_Lunes:
+AGENDA - Toda la informaciòn de las fechas estàn en el cronograma. Las clases son los Lunes a las 
+20:00hs.
+
+INTRASCENDENTES - El profe empezò a desarrollar un script, explicando conceptos claves para conocer la 
+materia.
+
+TIPS - Hacer uso del "onClick()" tambièn se ve como un evento.
+
+  - 31-08-2023_Jueves:
+
+TIPS - Tomar en cuenta que, se pueden plantear valores por defecto, asignand a la variable la pregunta 
+condicional, seguida de un signo de pregunta, con la sentencia (sin corchetes) de esa condición.
+
+AGENDA - Instalar Babel para antes de la siguiente clase.
+
+   - 04-09-2023_Lunes:
+
+TIPS - El deconstructor es importante, para tomar todos los valores de un objeto, sin estar llamando a 
+cada atributo, todo en una sola lìnea.
+
+   - 11-09-2023_Lunes:
+
+TIPS - La clase es un tema importante a investigar. De todos modos el profe lo va a explicar una vez más.
+TIPS - Los "fragments" (<> </>) son útiles para encerrar contenido HTML para la expresión de retorno de 
+JSX.
+
+   - 18-09-2023_Lunes:
+
+TIPS - La clase básicamente es, una forma de heredar módulos mediante las mismas, usando el método extends, 
+y exportando a los módulos normalmente.
+TIPS - Al usar props, tenemos que delimitar la variable que va a ir a buscar la misma.
+TIPS - map() además de generar un nuevo array, toma los datos de ese objeto, y los vuelve componentes, 
+dando así una cadena de texto.
+TIPS - Los estados engloban al módulo, y lo capacitan para ser modificado.
+
+   - 25-09-2023_Lunes:
+
+TIPS - this.state.nombre es la funcion callback de los estados.
+TIPS - En funcioones va muy similar que con las clases. Salvo que para cosas como los estados, necesitamos 
+insertarlos en una constante.
+TIPS - Para hacer una funciòn de operaciones, es importante tener en cuenta que no se puede modificar el 
+estado directaamente, se tiene que crear la funciòn modificadora.
+AGENDA - La primer parte del optativo nuevo, es tomar copia del trabajo ya realizado anteriormente.
+
+   - 29-09-2023_Viernes:
+
+TIPS - Es importante tomar nota de que se puede hacer uno de subdirectorios para ordenar nuestra aplicación React, para por ejemplo, separar a los componentes que componen a una página completa, de los que son simples componentes con pocos propósitos, una cosa del estilo de usar, una carpeta llamada pages, para los componentes que hacen a una página, y otra carpeta como components, para cosas singulares.
+
+   - 02-10-2023_Lunes:
+
+TIPS - Los llamados a las API Rest, tienen verbos, como POST, para dar de alta contenido nuevo, GET para tomar información, PUT que actualiza, y DELETE para eliminar datos.
+TIPS - .Then y .Catch son básicamente las herramientas a utilizar también en React, para acceder a JSON.
+TIPS - Axios es fácilmente instalable en los modulos node, y es más fácil de aplicar que fetch, con then y catch, y async await.
+AGENDA - El trabajo se elabora de manera sencilla, haciendo uso de todo en la clase presente, se puede hacer uso de la API de Mercado Libre ( https://api.mercadolibre.com/sites/MLA/search?q=ipod ), o cualquiera, como las de la lista: [ https://rapidapi.com/hub, https://apilist.fun/, https://www.programmableweb.com/, https://api.chucknorris.io/ ]
+
+   - 04-10-2023_Miercoles:
+
+INTRASCENDENTES - Cuando use la api de Mercado Libre, piedo usar limit en la URL para limitar los resultados de búsqueda.

@@ -1,0 +1,60 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgb(84, 186, 255);
+  position: fixed;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 100%;
+  min-height: 70px;
+}
+
+h1 {
+  padding: 10px;
+}
+
+.container {
+  background-color: rgba(87, 160, 255, 0.5);
+  margin-top: 85px;
+  text-align: center;
+  color: black;
+}
+
+div {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.nameProductBox {
+  background-color: rgb(58, 92, 201);
+}
+
+.productIMG {
+  background-color: rgb(59, 81, 151);
+}
+
+.productIMG img {
+  width: 60%;
+  margin: 5px;
+}
+
+.buyButton {
+  background-color: rgb(77, 96, 156);
+}
+
+.exeption {
+  margin: 10px 30%;
+}
+
+.productBox {
+  display: inline-block;
+  margin: 10px 20px;
+}
