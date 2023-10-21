@@ -57,3 +57,7 @@ AGENDA - El trabajo se elabora de manera sencilla, haciendo uso de todo en la cl
    - 04-10-2023_Miercoles:
 
 INTRASCENDENTES - Cuando use la api de Mercado Libre, piedo usar limit en la URL para limitar los resultados de búsqueda.
+
+   - 19-10-2023_Jueves:
+
+TIPS - Poner signo de pregunta, seguido de una variable, hace que valide que la variabñe no sea undefined.
