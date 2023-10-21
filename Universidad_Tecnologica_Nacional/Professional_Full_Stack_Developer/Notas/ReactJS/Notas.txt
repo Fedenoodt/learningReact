@@ -61,3 +61,7 @@ INTRASCENDENTES - Cuando use la api de Mercado Libre, piedo usar limit en la URL
    - 19-10-2023_Jueves:
 
 TIPS - Poner signo de pregunta, seguido de una variable, hace que valide que la variabñe no sea undefined.
+
+   - 21-10-2023_Sábado:
+
+TIPS - Si a la hora de crear un evento, se necesita pasar un parámetro que no es el evento, se crea una función, anónima o no, que tome a ese evento, y ahi si se le toma ese segunto parámetro en la función principal, junto al evento.
