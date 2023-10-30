@@ -4,6 +4,10 @@ import { useState, useEffect } from "react";
 // Importaciones librerías terceros
 import { useParams, Link } from "react-router-dom";
 
+function comprar() {
+  alert('Felicidades por su compra.')
+}
+
 function Details() {
   /*
     función de gancho (hook) que se utiliza acceder a los parámetros dinámicos
@@ -37,6 +41,8 @@ function Details() {
       <p>Precio ${product.price}</p>
       <p>Cantidad vendidos: {product.sold_quantity}</p>
       <p>Cantidad disponible: {product.available_quantity}</p>
+      <br />
+      <button onClick={comprar}>Comprar</button>
       <button><Link to="/products">Ocultar detalles</Link></button>
     </div>
   );
