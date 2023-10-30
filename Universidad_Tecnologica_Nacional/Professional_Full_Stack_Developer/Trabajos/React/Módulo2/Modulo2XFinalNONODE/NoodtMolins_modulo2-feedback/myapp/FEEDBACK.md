@@ -10,8 +10,8 @@ Al ser un sólo producto, nosotros no necesitamos mapear, simplemente mostrar la
 Ahora que ya tenemos el componente de página "Details", el siguiente paso es incorporarlo en nuestro proyecto de forma eficiente. Pero antes de eso, debemos ver cómo está estructurada tu aplicación. Ire paso por paso y dejando tareas en cada componente:
 
 App.jsx:
-En este componente se encuentran tus rutas, sin embargo, no tenemos una ruta para poder hacer una navegación a un producto, es decir, sin una ruta que reciba un parámetro dinámico en el path no vamos a poder manejar la navegación. En clases se vio un ejemplo con un path similar al siguiente: "/detalle/:id". En este caso, `:id` es lo que representa tu ruta dinámica, es un nombre de parámetro que puedes utilizar
-para acceder al valor específico en esa posición de la URL.
+En este componente se encuentran tus rutas, sin embargo, no tenemos una ruta para poder hacer una navegación a un producto, es decir, sin una ruta que reciba un parámetro dinámico en el path no vamos a poder manejar la navegación. ////En clases se vio un ejemplo con un path similar al siguiente: "/detalle/:id". En este caso, `:id` es lo que representa tu ruta dinámica, es un nombre de parámetro que puedes utilizar
+para acceder al valor específico en esa posición de la URL.///
 En tu caso, el componente que vamos a renderizar cuando la URL coincida será el componente "Details.jsx" que ya hemos modificado.
 
 En las rutas podemos notar que la ruta raíz es el componente de página "Home", pero quiero que notes algo que está pasando aquí (es importante que para ver las imágenes hayas abierto este archivo como "vista previa", la opción se encuentra con clic secundario sobre este archivo `FEEDBACK.md`):
