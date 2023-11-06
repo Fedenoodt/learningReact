@@ -70,3 +70,7 @@ TIPS - Si a la hora de crear un evento, se necesita pasar un parámetro que no e
 
 TIPS - Para asignarle a un formulario, en un evento de React, una funciòn a favor de ese evento, hay que hacer uso de su propiedad "event.preventDefault()", como en javascript, para impedir el ciclo de envìo.
 TIPS - Para tomar una cadena de valores, ya sea un arreglo, lista, o formulario, tenemos que usar un spread operator (...valor)
+
+   - 06-11-2023_Lunes:
+
+TIPS - Children es una propiedad para importar contenido para procesar dentro de un módulo. Se declara en dicho módulo, y al contenido a procesar, se exporta señalando al módulo con tags de apertura y cierre, y sus parámetros.
