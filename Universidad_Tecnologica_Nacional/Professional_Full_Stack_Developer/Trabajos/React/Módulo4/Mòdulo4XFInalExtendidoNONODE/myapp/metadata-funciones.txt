@@ -1,0 +1,20 @@
+Este documento esta orientado a comentar las funciones dentro de los distintos módulos.
+
+Las funciones de los modulos de una sola direcciòn, no hace falta explicarlas, ya que hacen lo mismo que su respectivo 
+módulo.
+
+En "../Pages/FireProduct.jsx" hay una segunda función corta que es comprar, esa solo imprime un cartel de compra.
+La función de isoLogo en "../Services/IsoLogo.jsx" esta hecha con propósito de componetizar el isoLogo del e-commerce.
+Siguiendo dentro de la misma carpeta Services. Hablamos de los archivos CreateUser.jsx, y quièn màs funciones guarda, 
+Service.jsx.
+
+CreateUser.jsx es quién le envia los datos del nuevo usuario a la base de datos de Firestore. Teniendo como tarea 
+adicional, autenticar a los usuarios ya creados desde los datos en Firestore.
+
+Y por último, las funciones de Service.jsx, casi todas ellas tienen relaciòn con la base de datos de Firestore.
+ 
+ - getDocById: Devuelve los productos, filtrando por el producto de id especificado.
+ - getting: Se encarga de devolver cualquier tabla de datos.
+ - updating: Se encarga de devolver los datos modificados, de un producto concreto.
+ - createProduct: Se encarga de devolver un formulario con un producto nuevo.
+ - deleteProduct: Se encarga de eliminar un producto especifico.

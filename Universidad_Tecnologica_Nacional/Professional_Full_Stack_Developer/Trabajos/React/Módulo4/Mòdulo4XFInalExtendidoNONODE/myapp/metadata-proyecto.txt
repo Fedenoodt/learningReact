@@ -1,0 +1,20 @@
+Este es un documento creado con el fin de orientar al consumidor de la app, acerca de la funcionalidad de cada módulo.
+
+Las funciones de la app, se encuentran en la carpeta Components (CreateUser).
+
+ - CreateUser: Crea un usuario en la base de datos de Firestore.
+
+Los módulos de servicios, están en la carpeta Services (Firebase, IsoLogo, y Service).
+
+ - Firebase: Es el encargado de recibir los parámetros de el acceso a Firebase.
+ - IsoLogo: Imprime un IsoLogo en todas las páginas, estilado con un componente React.
+ - Service: Es el módulo equipado con múltiples funciones para ayudar a toda la app.
+
+Los módulos que corresponden a pintar la página, se encuentran en la carpeta Pages (DeclaringProduct, FireProduct, 
+FireproductsMod, Login, y Register).
+
+ - DeclaringProduct: Crea un producto, y lo sube a la base de datos de Firestore.
+ - FireProduct: Recibe instrucciones de como mostrar un producto que llega desde Firestore.
+ - FireproductsMod: Modifica un producto ya creado, enviando dichos cambios a la base de datos de Firestore.
+ - Login: Autentica el ingreso de usuarios registrados de la base de datos de Firestore.
+ - Register: Registra usuarios nuevos a la base de datos de Firestore.
